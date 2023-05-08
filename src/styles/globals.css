@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    color: #fff !important;
+    background-image: url(../../public/backg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

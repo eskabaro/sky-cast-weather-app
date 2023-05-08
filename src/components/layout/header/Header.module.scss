@@ -1,0 +1,38 @@
+.wrapper {
+    text-align: center;
+    padding: 20px;
+
+    >h1 {
+        letter-spacing: 3px;
+    }
+
+    >nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+        >a {
+            padding: 0 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+
+            >.box {
+                box-shadow: 0 1px 32px rgba(0, 0, 0, 0.37);
+                backdrop-filter: blur(10px) !important;
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid #fff;
+                border-radius: 10px;
+                padding: 3px 10px;
+                background: none;
+                color: #fff;
+                font-weight: 600;
+
+                &.active {
+                    background-color: rgba($color: #fff, $alpha: .3);
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    >img {
+        margin: auto;
+        max-width: 110px;
+    }
+}
